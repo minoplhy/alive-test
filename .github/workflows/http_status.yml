@@ -7,8 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     # ... uses ....
-    - name: Checkout repository
-        uses: actions/checkout@v1
     - name: Check http status code of production site
       uses: minoplhy/ws@v1
       with:
