@@ -8,7 +8,7 @@ jobs:
     steps:
     # ... uses ....
     - name: Check http status code of production site
-      uses: lakuapik/gh-actions-http-status@v1
+      uses: minoplhy/ws@v1
       with:
         sites: '["https://kylz.nl", "https://crappy.kylz.nl", "https://m21.kylz.nl"]'
         expected: '[200, 200, 200]'
