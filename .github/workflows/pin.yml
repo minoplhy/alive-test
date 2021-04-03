@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: Leocardoso94/is-my-site-up@v0.2.1
+      - uses: Leocardoso94/is-my-site-up@v1.2
         with:
           site: "kylz.nl"
